@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="registration-form">
+    <h2>Registration Form </h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter the Name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter Email adderss">
+      <label for="date">Enter Data of Birth:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="gender">Gender</label>
+      <input type="text" id="gender" name="gender" required placeholder="Enter the Gender">
+      <label for="number">phone Number:</label>
+      <input type="number" id="number" name="number" required placeholder="Enter phone number">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="Enter the Password">
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required placeholder="Enter the confirm password">
+      <input type="file" accept=".jpeg">
+      <label for="course">Course</label>
+      
+      <div>
+        <input type="checkbox" name="cr">
+        <span>HTML</span>
+        <input type="checkbox" name="cr">
+        <span>CSS</span>
+        <input type="checkbox" name="cr">
+        <span>JAVA SCEIPT</span>
+      </div>
+      <button type="submit">Create account</button>
+      <input type="reset">
+    </form>
+  </div>
+</body>
+</html>
